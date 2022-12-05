@@ -34,7 +34,7 @@ while True:
     elif(i == 5):
         a = int(input())
         b = int(input())
-        c = a//b
+        c = a%b
         print(int(c))
     elif(i == 6):
         quit()
